@@ -22,8 +22,9 @@
 ## Contributors
 
 Ben Senica - mailto:senicaben@gmail.com  
-Viktoria Kaliscz - mailto:viktoria.kaliszz@gmail.com  
+Wiktoria Kalisz - mailto:viktoria.kaliszz@gmail.com  
 Kremena Dobreva - mailto:kremdo@gmail.com  
-Brecht Nulens - brechtnulens@gmail.com
+Brecht Nulens - mailto:brechtnulens@gmail.com
 
-referal: bts.becode.xyz
+`_referal: bts.becode.xyz  
+(make account)_`
