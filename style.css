@@ -62,12 +62,5 @@
     padding-bottom: .5em;
 }
 
-.dropdown-download {
-    color: #F7F7F7;
-}
 
-@media only screen and (max-width:425px) and (min-width:320px){
-    .tabs {
-        font-size: 50px;
-    }
-}
+
