@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 ::selection {
@@ -40,7 +41,7 @@
 
 
 .tabs > div {
-    width: 700px;
+    width: 100%;
     position: absolute;
     border: 2px solid #5DCCC5;
     padding: 10px 30px 40px;
@@ -60,4 +61,8 @@
 
 .tabs > div h2 {
     padding-bottom: .5em;
+}
+
+.dropdown-download {
+    color: #F7F7F7;
 }
