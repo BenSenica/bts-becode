@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div class="tabbed">
+    <input type="radio" name="tabs" id="tab-nav-1" checked>
+    <label for="tab-nav-1">Search</label>
+    <input type="radio" name="tabs" id="tab-nav-2">
+    <label for="tab-nav-2">Download</label>
+    <input type="radio" name="tabs" id="tab-nav-3">
+    <label for="tab-nav-3">Upload</label>
+    <input type="radio" name="tabs" id="tab-nav-4">
+    <label for="tab-nav-4">Admin</label>
+    <div class="tabs tabsbg">
+  <div>
+    <h2>HTML</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla tortor, a posuere urna. Praesent urna quam, semper ut ultricies et, mollis ac elit. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla tortor, a posuere urna. Praesent urna quam, semper ut ultricies et, mollis ac elit. Suspendisse tempor, lacus id consectetur sagittis, lorem odio dignissim nulla, a
+      condimentum sem neque sed ligula. Maecenas id risus eros, eget porttitor metus. Quisque pellentesque neque dignissim nisl pellentesque vitae tempus urna eleifend. Nullam egestas, neque id placerat luctus, nibh velit pharetra nulla, vel pretium
+      justo massa ut elit. Vivamus nec auctor nunc.</p>
+  </div>
+  <div>
+    <h2>CSS</h2>
+    <p>Maecenas dictum, urna ut consequat condimentum, est dui commodo diam, ac pretium dui ante eu quam. Curabitur posuere metus nec tellus venenatis placerat. Ut egestas neque in odio vulputate gravida. In at justo ac est laoreet eleifend vel quis
+      arcu. Aliquam erat volutpat. Proin vitae vehicula neque. Nam tempus erat ac ante tincidunt tincidunt. Pellentesque eu nibh sapien. Nunc augue magna, lacinia eget congue eget, mattis id tortor. Fusce id vestibulum neque. Proin tincidunt tellus
+      ut risus lobortis cursus. Duis sit amet urna vel sapien ullamcorper varius.</p>
+  </div>
+  <div>
+    <h2>UPLOAD</h2>
+    <form class="container-fluid">
+      <div class="form-group">
+        <div class="row form-group">
+
+
+
+          <div class="input-group mb-3">
+            <label for="formGroupExampleInput"></label>
+            <input type="text" class="form-control" placeholder="Type a name to search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+          </div>
+
+          <!--versionII
+          <input type="text" class="col-8 form-control dropdown-toggle" id="formGroupExampleInput" placeholder="Example input">
+          <button type="button" class="col btn btn-outline-dark " aria-haspopup="true" aria-expanded="false">
+            Search
+          </button>
+        -->
+        </div>
+        <!-- dropdown autocomplete
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Ben Senica</button>
+          <button class="dropdown-item" type="button">Brecht Noelens</button>
+          <button class="dropdown-item" type="button">Kremena Dobreva</button>
+          <button class="dropdown-item" type="button">Wiktoria Kalisz</button>
+        </div>
+-->
+
+        <div class="form-group mb-3">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-outline-secondary" type="button">UPLOAD</button>
+          <button class="btn btn-outline-secondary" type="button">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div>
+    <h2>Output</h2>
+    <p>Fusce vel eros eu lectus ultricies fermentum vestibulum adipiscing odio. Suspendisse ultricies, metus nec dapibus pharetra, quam arcu vulputate nisl, a pretium nisi velit id ante. Nunc auctor augue sit amet orci vestibulum id placerat nulla
+      pellentesque. Duis vel quam velit. Ut auctor ipsum quis lacus semper non pretium mi dignissim. Morbi ultrices augue eget nisi hendrerit placerat. Mauris rhoncus urna quis metus congue quis condimentum risus interdum. Nam lobortis lectus et enim
+      laoreet mattis. Integer faucibus ullamcorper erat, at rhoncus leo bibendum sed. Mauris libero urna, placerat non pretium ac, elementum et arcu. Aliquam non tellus diam, vel scelerisque odio. Etiam a quam et enim vehicula feugiat posuere at dui.
+      Phasellus at nisl quam. Integer nisi mi, varius vitae placerat viverra, dapibus vitae massa. Nullam ut orci vitae nisi ornare aliquam in eget orci.</p>
+  </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+</body>
+
+</html>
