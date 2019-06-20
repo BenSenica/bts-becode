@@ -117,17 +117,16 @@ input[type=text] {
   bottom: 10px;
 }
 
+.search-button {
+  background-color: #549494;
+}
+
 /* "Results" box */
 .overflow-auto {
     margin-top: 42px;
     overflow: scroll;
     border: 2px solid #5DCCC5;
     max-height: 350px;
-}
-
-.list-group {
-  position: relative;
-  max-height: 30%;
 }
 
 .list-group img {
@@ -144,9 +143,6 @@ input[type=text] {
 }
 
 /* Search Icon BG */
-.btn .lupa {
-  background-color: #549494;
-}
 .lupa img {
   position: relative;
   width: 40%;
@@ -184,10 +180,6 @@ input[type=text] {
 
 .download-img-style {
     width: 40%;
-    
-}
-
-.button-align {
     
 }
 

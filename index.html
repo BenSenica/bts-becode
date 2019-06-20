@@ -37,7 +37,7 @@
          <div class="container">
             <div class="row">
               <input class="search-input col-11" type="text" placeholder="">
-              <button type="button" class="btn search btn-outline-success lupa col-1"><img src="lupa.png" alt="loop"></button>
+              <button type="button" class="search-button btn btn-outline-success lupa col-1"><img src="lupa.png" alt="loop"></button>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
           </a>
           <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Brecht Nulens</h5>
+            <h5 class="mb-1">Brecht Nulens</h5>
             </div>
             <img class="profile-pic" src="images/profile_icon.png" alt="profile">
             <p class="mb-1">Student BeCode Hopper 2.12</p>
@@ -115,22 +115,28 @@
         <div>
             <div class="container">
                 <div class="row">
-                    <div class="col-8 m-3">
+                    <div class="col-12">
+                        <h2>Download</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
                         <div class="input-group mb-3">
-                            <select class="custom-select custom-border" id="inputGroupSelect01">
+                            <select class="custom-select" id="inputGroupSelect01">
                             <option selected>Choose level...</option>
                             <option value="1">Campus</option>
                             <option value="2">Group</option>
                             <option value="3">Course</option>
                             <option value="4">Individual</option>
-                            
+
                             </select>
                         </div>
                     </div>
                 </div>
-            
-                <div class="row autocomplete-margin">
-                   <div class="col-10 align-center">
+
+                <div class="row">
+                   <div class="col-12">
                        <form autocomplete="off" action="/action_page.php">
                         <div class="autocomplete col-12">
                             <input id="myInput" type="text" name="myCountry" placeholder="Unit">
@@ -138,7 +144,7 @@
                         </form>
                    </div>
                 </div>
-            
+
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <h3 class="download-h3">Documents</h3>
@@ -162,9 +168,6 @@
                         <label class="custom-control-label" for="customCheck4">Laptop contract</label>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <button class="btn btn-download" type="button"><img class="download-img-style" src="images/download-button.png" alt="Download"></button>
-                </div>
             </div>
         </div>
         <div>
@@ -187,7 +190,7 @@
               <div class="form-group">
                 <div class="custom-file">
                   <input type="file" class="custom-file-input" id="customFile">
-                  <label class="custom-file-label" for="customFile">Choose file to download...</label>
+                  <label class="custom-file-label" for="customFile">Choose file to upload...</label>
                 </div>
               </div>
 
