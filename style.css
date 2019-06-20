@@ -105,4 +105,36 @@ input[type=text] {
   color: #ffffff;
 }
 
+/* FINE ADDITIONS TO MY COLLECTION */
 
+.dropdown {
+  top: 10px;
+  bottom: 10px;
+}
+
+.overflow-auto {
+    margin-top: 42px;
+    overflow: scroll;
+    border: 2px solid #5DCCC5;
+    max-height: 350px;
+}
+
+.list-group {
+    position: relative;
+    margin: 1px;
+    max-height: 30%;
+}
+
+.btn-group {
+    display: block;
+    height: 50%;
+    width: 100%;
+}
+
+.btn {
+    background-color: #549494;
+}
+
+.lupa img {
+    width: 60%;
+}
