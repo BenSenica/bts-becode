@@ -74,7 +74,7 @@ input {
   font-size: 16px;
 }
 input[type=text] {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -105,13 +105,19 @@ input[type=text] {
   color: #ffffff;
 }
 
-/* FINE ADDITIONS TO MY COLLECTION */
+/* SEARCH CSS */
+
+.search-input {
+  border: 1px solid #5DCCC5;
+  background-color: #FFF;
+}
 
 .dropdown {
   top: 10px;
   bottom: 10px;
 }
 
+/* "Results" box */
 .overflow-auto {
     margin-top: 42px;
     overflow: scroll;
@@ -120,9 +126,15 @@ input[type=text] {
 }
 
 .list-group {
-    position: relative;
-    margin: 1px;
-    max-height: 30%;
+  position: relative;
+  max-height: 30%;
+}
+
+.list-group img {
+  float: right;
+  max-width: 8%;
+  max-height: 8%;
+  margin-right: 20px;
 }
 
 .btn-group {
@@ -131,10 +143,14 @@ input[type=text] {
     width: 100%;
 }
 
+/* Search Icon BG */
 .btn {
     background-color: #549494;
 }
 
 .lupa img {
-    width: 60%;
+    position: relative;
+    width: 40%;
+    min-width: 15px;
+    height: auto;
 }
