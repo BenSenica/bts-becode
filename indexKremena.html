@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
     <link rel="stylesheet" href="awesomplete.css" />
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
@@ -89,7 +91,7 @@
         </div>
         <div>
 
-          <form class="container-fluid">
+  <form class="container-fluid">
   <h2>Upload</h2>
 
   <div class="form-group">
@@ -105,7 +107,7 @@
 
 
   </div>
-  
+
 
   <div class="form-group">
     <div class="custom-file">
@@ -113,12 +115,15 @@
       <label class="custom-file-label" for="customFile">Choose file to download...</label>
     </div>
   </div>
+
   <div class="form-group">
     <label for="comment">Comment:</label>
     <textarea class="form-control" rows="5" id="comment" placeholder="Add your comment here..."></textarea>
   </div>
+
   <div class="form-group">
-    <button class="btn btn-outline-success" type="button">UPLOAD</button>
+    <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#exampleModalPreview">UPLOAD</button>
+
     <button class="btn btn-outline-secondary" type="button">Cancel</button>
   </div>
 
@@ -128,6 +133,27 @@
 
 </div>
 </div>
+
+<!-- Modal Kremena-->
+<div class="modal fade top" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+<div class="modal-dialog modal-full-height modal-top" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalPreviewLabel">Upload complete</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- Modal -->
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
