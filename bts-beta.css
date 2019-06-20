@@ -59,7 +59,7 @@
 }
 
 .tabs > div h2 {
-    padding-bottom: .5em;
+  padding-bottom: .5em;
 }
 
 /* FINE ADDITIONS TO MY COLLECTION */
@@ -69,23 +69,29 @@
   bottom: 10px;
 }
 
-.results {
-  position: relative;
-  border: 1px solid #5DCCC5;
-  margin: 14px;
-}
-    
-tbody {
+.overflow-auto {
+    margin-top: 42px;
+    overflow: scroll;
+    border: 2px solid #5DCCC5;
+    max-height: 350px;
 }
 
-.table img {
-  align-content: center;
-  transform: scale(2.0); 
-  width: 10px; 
-  max-height: 30px;
+.list-group {
+    position: relative;
+    margin: 1px;
+    max-height: 30%;
 }
 
-.btn .btn-outline-success {
-    display: flexbox;
-    justify-content: center;
+.btn-group {
+    display: block;
+    height: 50%;
+    width: 100%;
+}
+
+.btn {
+    background-color: #549494;
+}
+
+.lupa img {
+    width: 60%;
 }

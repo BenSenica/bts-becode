@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bts-beta.css">
+    <link rel="stylesheet" type='text/css' href="bts-beta.css">
 </head>
 
 <body>
@@ -20,86 +20,88 @@
     <input type="radio" name="tabs" id="tab-nav-4">
     <label for="tab-nav-4">Admin</label>
   <div class="tabs tabsbg">
-       <div class="col-12">
-                <div class="dropdown">
-                    <div class="btn-group col-4">
-                        <button type="button" class="btn btn-danger">Organisation</button>
-                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Genk</a>
-                          <a class="dropdown-item" href="#">Liège</a>
-                          <a class="dropdown-item" href="#">Antwerp</a>
-                          <a class="dropdown-item" href="#">Brussels</a>
-                          <a class="dropdown-item" href="#">Gent</a>
-                          <a class="dropdown-item" href="#">Charleroi</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Search Everywhere</a>
-                        </div>
-                        <input class="search-search col-8" type="text" placeholder="">
-                     </div>
-                </div>
-      <div class="results">
-            <div class="table-wrapper-scroll-y my-custom-scrollbar">
-                <table class="table table-bordered table-striped mb-0">
-                  <thead>
-                     <tr>
-                       <th scope="col"></th>
-                       <th scope="col">First</th>
-                       <th scope="col">Last</th>
-                       <th scope="col">Handle</th>
-                       </tr>
-                     </thead>
-                     <tbody>
-                       <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><img src="profile_icon.png" alt="profile_icon"></th>
-                          <td>Larry</td>
-                          <td>the Bird</td>
-                          <td>T2 Genk</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-      <button type="button" class="btn btn-outline-success">Search</button>
-     </div>
+    <div class="col-12">
+     <div class="dropdown">
+       <div class="btn-group">
+         <div class="input-group mb-3 xs-3">
+            <select class="custom-select" id="inputGroupSelect01">
+            <option selected><span class= "download-dropdown">Choose level...</span></option>
+            <option value="1">Campus</option>
+            <option value="2">Group</option>
+            <option value="3">Course</option>
+            <option value="4">Individual</option>
+            </select>
+          </div>
+         <div class="container">
+            <div class="row">
+              <input class="search-search col-11" type="text" placeholder="">
+              <button type="button" class="btn btn-outline-success lupa col-1"><img src="lupa.png" alt="loop"></button>
+            </div>
+          </div>
+        </div>
+       </div>
+   <div class="results overflow-auto">
+      <div class="list-group">
+         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+             <h5 class="mb-1">Wiktoria Kalisz</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small>T2 Campus Genk</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+           <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Ben Senica</h5>
+             </div>
+           <p class="mb-1">Student BeCode Hopper 2.12</p>
+           <small class="text-muted">T2 Campus Genk.</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+           <div class="d-flex w-100 justify-content-between">
+             <h5 class="mb-1">Kremena Dobreva</h5>
+           </div>
+           <p class="mb-1">Student BeCode Hopper 2.12</p>
+           <small class="text-muted">T2 Campus Genk</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Brecht Nulens</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small class="text-muted">T2 Campus Genk</small>
+          </a>
+         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Kremena Dobreva</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small class="text-muted">T2 Campus Genk</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Kremena Dobreva</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small class="text-muted">T2 Campus Genk</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Kremena Dobreva</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small class="text-muted">T2 Campus Genk</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Kremena Dobreva</h5>
+            </div>
+            <p class="mb-1">Student BeCode Hopper 2.12</p>
+            <small class="text-muted">T2 Campus Genk</small>
+          </a>
+         </div>
+      </div>
+    </div>
+  </div>
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
