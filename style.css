@@ -144,13 +144,12 @@ input[type=text] {
 }
 
 /* Search Icon BG */
-.btn {
-    background-color: #549494;
+.btn .lupa {
+  background-color: #549494;
 }
-
 .lupa img {
-    position: relative;
-    width: 40%;
-    min-width: 15px;
-    height: auto;
+  position: relative;
+  width: 40%;
+  min-width: 15px;
+  height: auto;
 }
